@@ -17,10 +17,8 @@ jobs:
         with:
           node-version: latest
 
-      - name: Install Pandoc
+      - name: Install pandoc
         uses: pandoc/actions/setup@v1
-        with:
-          version: latest
 
       - name: Install Hexo dependencies
         run: |
