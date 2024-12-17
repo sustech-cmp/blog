@@ -17,3 +17,4 @@ jobs:
           publish_branch: main
           destination_dir: blog
           external_repository: sustech-cmp/sustech-cmp.github.io
+          
