@@ -1,0 +1,10 @@
+Hexo 文档
+https://hexo.io/zh-cn/docs/
+
+指令：https://hexo.io/zh-cn/docs/commands
+配置：https://hexo.io/zh-cn/docs/configuration
+写作：https://hexo.io/zh-cn/docs/writing
+主题：https://hexo.io/zh-cn/docs/themes
+
+NexT 文档
+https://theme-next.js.org/docs/
