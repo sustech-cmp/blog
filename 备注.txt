@@ -8,3 +8,5 @@ https://hexo.io/zh-cn/docs/
 
 NexT 文档
 https://theme-next.js.org/docs/
+
+使用 GitHub Actions 部署
