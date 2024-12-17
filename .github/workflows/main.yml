@@ -3,7 +3,7 @@ name: Deploy blog to GitHub Pages at ./blog/
 on:
   push:
     branches:
-      - main
+      - master
 
 jobs:
   deploy_blog:
@@ -28,6 +28,6 @@ jobs:
         with:
           personal_token: ${{ secrets.UPLOAD_TOKEN }}
           publish_dir: ./public
-          publish_branch: main
+          publish_branch: master
           destination_dir: blog
           external_repository: sustech-cmp/sustech-cmp.github.io
