@@ -12,6 +12,8 @@ jobs:
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v4
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          personal_token: ${{ secrets.UPLOAD_TOKEN }}
+          publish_dir: ./public
+          publish_branch: main
           destination_dir: blog
           external_repository: sustech-cmp/sustech-cmp.github.io
