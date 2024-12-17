@@ -17,8 +17,16 @@ jobs:
         with:
           node-version: latest
 
+      - name: Install Pandoc
+        uses: pandoc/actions/setup@v1
+        with:
+          version: latest
+
       - name: Install Hexo dependencies
-        run: npm install -g hexo-cli && npm install hexo && npm install
+        run: |
+          npm install -g hexo-cli
+          npm install hexo
+          npm install
       
       - name: Generate Hexo static files
         run: hexo clean && hexo generate
