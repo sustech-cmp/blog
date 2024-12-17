@@ -15,10 +15,10 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '18'
+          node-version: latest
 
       - name: Install Hexo dependencies
-        run: npm install
+        run: npm install -g hexo-cli && npm install hexo && npm install
       
       - name: Generate Hexo static files
         run: hexo clean && hexo generate
